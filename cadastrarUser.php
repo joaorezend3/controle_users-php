@@ -6,6 +6,8 @@ include_once 'conexao.php';
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="/assents/css/cfg.css">
+    <link rel="stylesheet" href="/assents/css/cadastrar.css">
 </head>
 <body>
     <h2>Cadastro de Usuário</h2>
@@ -29,3 +31,6 @@ include_once 'conexao.php';
     </form>
 </body>
 </html>
+
+
+
