@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($senha_formulario, $senhaHash)) {
             // Senha correta, autenticação bem-sucedida
             $_SESSION['user_id'] = $id;
-            header("Location: pagina_restrita.php"); // Redireciona para a página restrita
+            header("Location: pagina_inicial.php"); // Redireciona para a página restrita
         } else {
             echo "Senha incorreta. Tente novamente.";
         }

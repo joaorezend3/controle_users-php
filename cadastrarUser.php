@@ -1,13 +1,11 @@
-<?php
-include_once 'conexao.php';
-?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Usuário</title>
-    <link rel="stylesheet" href="/assents/css/cfg.css">
-    <link rel="stylesheet" href="/assents/css/cadastrar.css">
+    <link rel="stylesheet" href="assents/css/cfg.css">
+    <link rel="stylesheet" href="assents/css/cadastro.css">
 </head>
 <body>
     <h2>Cadastro de Usuário</h2>
